@@ -2,4 +2,4 @@
 
 $(document).ready(function() {
 	$("#result").val(chrome.extension.getBackgroundPage().output);
-});
+}); 
