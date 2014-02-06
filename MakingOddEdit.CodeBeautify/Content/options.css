@@ -1,0 +1,34 @@
+html {
+   min-height: 100%;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffefc6), to(#edddc7));
+}
+
+ul {
+	list-style-type: inherit;
+}
+
+.options {
+	list-style-type: none;
+	padding: 0;
+}
+
+#optionsContainer, #savingMessage {
+    margin-top: 10px;
+    padding-left: 25px;
+}
+
+#savingMessage {
+    color:#f00;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#max-preserve-newlines {
+	width: 40px;
+}
+
+select {
+    min-width: 300px;
+}

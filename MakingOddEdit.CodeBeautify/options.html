@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stackoverflow Code Beautify Options</title>
+	<link rel="stylesheet" href="Content/jquery-ui.css">
+	<link rel="stylesheet" href="Content/options.css">
+	<script src="Scripts/jquery.js"></script>
+	<script src="Scripts/jquery-ui.js"></script>
+	<script src="Scripts/options.js"></script>
+</head>
+<body>
+    <header>
+	    <img src="Content/Images/CodeBeautify-Logo.png" alt="CodeBeautify" />
+    </header>
+    <section id="savingMessage" class="hidden">
+        Saved...
+    </section>
+    <section id="optionsContainer">
+	    <div>
+		    <select id="indent-scripts">
+			    <option value="keep">Keep indent level of the tag</option>
+			    <option value="normal">Add one indent level</option>
+			    <option value="separate">Separate indentation</option>
+		    </select>
+	    </div>
+	
+	    <div>
+		    <select id="tabsize">
+			    <option value="1">indent with a tab character</option>
+			    <option value="2">indent with 2 spaces</option>
+			    <option value="3">indent with 3 spaces</option>
+			    <option value="4">indent with 4 spaces</option>
+			    <option value="8">indent with 8 spaces</option>
+		    </select>
+	    </div>
+
+	    <div>
+		    <select id="brace-style">
+			    <option value="collapse">Braces with control statement</option>
+			    <option value="expand">Braces on own line</option>
+			    <option value="end-expand">End braces on own line</option>
+		    </select>
+	    </div>
+
+	    <ul class="options">
+		    <li>
+			    <label for="preserve-newlines"><input class="checkbox" type="checkbox" id="preserve-newlines"> Preserve empty lines</label>
+		    </li>
+		    <li>
+		        <ul>
+			        <li>
+			            <label for="limit-preserve-newlines"><input class="checkbox" type="checkbox" id="limit-preserve-newlines"> Limit max empty lines to:</label>
+			            <input id="max-preserve-newlines" name="max-preserve-newlines" title="Maximum number of empty lines to preserve when 'Preserve empty lines' is checked." />
+			        </li>
+			    </ul>
+		    </li>
+		    <li>
+			    <label for="keep-array-indentation"><input class="checkbox" type="checkbox" id="keep-array-indentation"> Keep array indentation</label>
+		    </li>
+		    <li>
+			    <label for="break-chained-methods"><input class="checkbox" type="checkbox" id="break-chained-methods"> Break lines on chained methods</label>
+		    </li>
+		    <li>
+			    <label for="space-before-conditional" title="'if(x)' / 'if (x)'"><input class="checkbox" type="checkbox" id="space-before-conditional"> Space before conditional</label>
+		    </li>
+		    <li>
+			    <label for="unescape-strings" title="as \xNN or \uNNNN"><input class="checkbox" type="checkbox" id="unescape-strings"> Unescape printable chars encoded</label>
+		    </li>
+	    </ul>
+    </section>
+</body>
+</html>
