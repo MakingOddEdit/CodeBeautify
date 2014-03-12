@@ -1,6 +1,6 @@
 {
   "name": "Stackoverflow Code Beautify",
-  "version": "0.9",
+  "version": "1.0",
   "manifest_version": 2,
   "description": "Beautify and format selected code as needed.",
   "minimum_chrome_version": "14",
